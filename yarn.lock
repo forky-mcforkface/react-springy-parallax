@@ -2414,17 +2414,11 @@ dateformat@^3.0.2:
   version "3.0.3"
   resolved "https://registry.yarnpkg.com/dateformat/-/dateformat-3.0.3.tgz#a6e37499a4d9a9cf85ef5872044d62901c9889ae"
 
-debug@2.6.9, debug@^2.3.3, debug@^2.6.6, debug@^2.6.8:
+debug@2.6.9, debug@^2.2.0, debug@^2.3.3, debug@^2.6.6, debug@^2.6.8:
   version "2.6.9"
   resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.9.tgz#5d128515df134ff327e90a4c93f4e077a536341f"
   dependencies:
     ms "2.0.0"
-
-debug@^2.2.0:
-  version "2.6.3"
-  resolved "https://registry.yarnpkg.com/debug/-/debug-2.6.3.tgz#0f7eb8c30965ec08c72accfa0130c8b79984141d"
-  dependencies:
-    ms "0.7.2"
 
 debug@^3.1.0:
   version "3.1.0"
@@ -4586,10 +4580,6 @@ move-concurrently@^1.0.1:
     rimraf "^2.5.4"
     run-queue "^1.0.3"
 
-ms@0.7.2:
-  version "0.7.2"
-  resolved "https://registry.yarnpkg.com/ms/-/ms-0.7.2.tgz#ae25cf2512b3885a1d95d7f037868d8431124765"
-
 ms@2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
@@ -4734,7 +4724,7 @@ nopt@^4.0.1:
     abbrev "1"
     osenv "^0.1.4"
 
-normalize-css-color@^1.0.1, normalize-css-color@^1.0.2:
+normalize-css-color@^1.0.1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/normalize-css-color/-/normalize-css-color-1.0.2.tgz#02991e97cccec6623fe573afbbf0de6a1f3e9f8d"
 
@@ -4854,7 +4844,7 @@ once@^1.3.0, once@^1.3.1, once@^1.3.3, once@^1.4.0:
 
 onetime@^1.0.0:
   version "1.1.0"
-  resolved "http://registry.npmjs.org/onetime/-/onetime-1.1.0.tgz#a1f7838f8314c516f05ecefcbc4ccfe04b4ed789"
+  resolved "https://registry.npmjs.org/onetime/-/onetime-1.1.0.tgz#a1f7838f8314c516f05ecefcbc4ccfe04b4ed789"
 
 onetime@^2.0.0:
   version "2.0.1"
@@ -5343,20 +5333,6 @@ rc@^1.1.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-react-broadcast@^0.7.0-rc.4:
-  version "0.7.0-rc.4"
-  resolved "https://registry.yarnpkg.com/react-broadcast/-/react-broadcast-0.7.0-rc.4.tgz#10a0132a287baa81041f2208e75c9b55a6542ea8"
-  dependencies:
-    prop-types "^15.6.0"
-    warning "^3.0.0"
-
-react-contextual@^3.9.3:
-  version "3.9.3"
-  resolved "https://registry.yarnpkg.com/react-contextual/-/react-contextual-3.9.3.tgz#6ac4b522541bb11e437a71952423b3e13c7df8d3"
-  dependencies:
-    react-broadcast "^0.7.0-rc.4"
-    tiny-uuid "^1.0.0"
-
 react-dom@^16.3.0-alpha.2:
   version "16.3.0-alpha.2"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.3.0-alpha.2.tgz#a970b6185684941e89a568c09321d22643457cb6"
@@ -5365,12 +5341,6 @@ react-dom@^16.3.0-alpha.2:
     loose-envify "^1.1.0"
     object-assign "^4.1.1"
     prop-types "^15.6.0"
-
-react-spring@^2.3.0:
-  version "2.3.0"
-  resolved "https://registry.yarnpkg.com/react-spring/-/react-spring-2.3.0.tgz#7d0554d8c482c9a5afe1b9793754343d5da91480"
-  dependencies:
-    normalize-css-color "^1.0.2"
 
 react@^16.3.0-alpha.2:
   version "16.3.0-alpha.2"
@@ -6333,10 +6303,6 @@ timers-browserify@^2.0.2:
   dependencies:
     setimmediate "^1.0.4"
 
-tiny-uuid@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/tiny-uuid/-/tiny-uuid-1.0.0.tgz#aea34a2f89c7b71435eb38af3139aa3a025351ca"
-
 tmp@^0.0.33:
   version "0.0.33"
   resolved "https://registry.yarnpkg.com/tmp/-/tmp-0.0.33.tgz#6d34335889768d21b2bcda0aa277ced3b1bfadf9"
@@ -6673,12 +6639,6 @@ vm-browserify@0.0.4:
   resolved "https://registry.yarnpkg.com/vm-browserify/-/vm-browserify-0.0.4.tgz#5d7ea45bbef9e4a6ff65f95438e0a87c357d5a73"
   dependencies:
     indexof "0.0.1"
-
-warning@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/warning/-/warning-3.0.0.tgz#32e5377cb572de4ab04753bdf8821c01ed605b7c"
-  dependencies:
-    loose-envify "^1.0.0"
 
 watchpack@^1.5.0:
   version "1.5.0"
